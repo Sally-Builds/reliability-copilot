@@ -6,7 +6,7 @@ A number without a date and a method is a rumor.
 | Week | Quality (eval score) | Reliability (success rate) | p95 latency | Cost per 1k tasks | Security notes | Recovery notes |
 |---|---|---|---|---|---|---|
 | 0 | n/a (no system yet) | n/a | n/a | n/a | Secrets strategy set (.env, gitignored) | n/a |
-| 1 | | | | | | |
+| 1 |n/a, golden set of 5 exists, no system to grade yet |n/a, no scripted tasks yet |n/a, single-run lookup measured at 0.289ms before index / 0.218ms after (n=1, not a p95) |$0, no LLM calls made | .env gitignored, secrets in env vars, synthetic data only, no real data in repo|n/a, no failure drills yet |
 
 ## How each metric is measured
 
